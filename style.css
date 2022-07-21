@@ -1,0 +1,132 @@
+
+body {
+    background: rgba(47, 145, 145, .2);
+}
+
+
+/*En-tête de la page*/
+/*
+.navigation {
+    background: rgba(47, 145, 145, .2);
+}
+*/
+
+.menu {
+    font-size: larger;
+}
+
+
+
+
+/*Corps de la page*/
+main {
+    background-color: lightcyan;
+}
+
+
+
+
+
+.duo {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.boxleft {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 600px;
+}
+
+.boxillu {
+    margin-left: 200px;
+}
+
+.illu {
+    width: 400px;
+}
+
+
+.boxright {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    height: 600px;
+    background-color: lightseagreen;
+    border-radius: 1em;
+}
+
+.boxform {
+    display: flex;
+    padding: 10%;
+    margin-left: 45px;
+    margin-top: 45px;
+    
+}
+
+
+/*Style des informations de contact*/
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3em;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 8%;
+}
+.lienmail {
+    color: black;
+    
+}
+
+/*Style du formulaire de contact*/
+.champ{
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+    width: 150%;
+    font-style: italic;
+}
+.champ:hover{
+    border-bottom : 2px solid #6C7575;
+}
+
+.zone{
+    width: 150%;
+    resize: none;
+    height: 100px;
+}
+
+.erreur{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+.bouton{
+    width: 150%;
+}
+
+
+/*Bas-de-page*/
+.bas {
+    display: flex;
+    padding: 2%;
+}
+
